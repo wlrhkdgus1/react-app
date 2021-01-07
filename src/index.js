@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './App'; //대문자로 시작해야됨 // from뒤 App은 .js가 생략된것
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
