@@ -1,0 +1,22 @@
+1. 가동성이좋음 // 
+2. 재사용성이좋음 // 
+3. 유지보수가좋음 // 폭발적으로 좋아짐.
+
+reactjs.org = 리액트 공식 홈페이지 및 사용방법
+객체지향이 이해가안가면 이고잉 = JavaScript Object Oriented Programming 수업듣기.
+객체간의 상속 까지.
+
+이고잉 npm 강의 : https://opentutorials.org/module/4044
+
+npm install -g = 컴퓨터 어디에서든지 사용가능 global의 약자
+
+npm create-react-app 다운로드 프로그램
+npx 1회용으로 사용하는 프로그램.
+장점 : 쓸대마다 최신버전 사용가능 . 한번만실행시키고 지우기때문에 컴퓨터공간 낭비X
+
+배포하는법
+npm start build  = 실제로 서비스할떄는 build 안에있는 파일들을 쓰면됨.
+내가 만든 필요없는 공백등을 제거 // 용량을 경량화 압축시켜 만들어줌.
+
+npm install -g serve = 이컴퓨터 어디에서나 serve라는 명령어를 통해 웹서버를 실행시킬수잇음
+npx serve -s build = serve라는웹서버를 다운받아서 실행시킬떄 우리가생성한 build를 document root로 하겠다.
