@@ -18,8 +18,8 @@ class Content extends Component{
   render() {
     return (
       <div>
-        <h2>HTML</h2>
-        HTML is HyperText Markup Language.
+        <h2>{this.props.title}</h2>
+        {this.props.desc}
       </div>
     );
   }
@@ -30,8 +30,8 @@ class Subject extends Component{
   render() {
     return (
       <header>
-            <h1>WEB</h1>
-            world wide web!
+            <h1>{this.props.title}</h1>
+            {this.props.sub}
         </header>
     );
   }
@@ -40,9 +40,10 @@ class Subject extends Component{
 function App() {
   return (
     <div className="App">
-      <Subject></Subject>
+      <Subject title="WEB" sub="World wide web!"></Subject>
+      <Subject title="React" sub="For Ui"></Subject>
       <TOC></TOC>
-      <Content></Content>
+      <Content title="HTML" desc="HTML is HyperText Markup Language."></Content>
     </div>
   );
 }
