@@ -8,7 +8,7 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      mode:'welcome',
+      mode:'read',
       Subject:{title:'WEB',sub:'World Wid Web!'},
       welcome:{title:'Welcome',desc:'Hello React!!'},
       contents:[
@@ -29,10 +29,21 @@ class App extends Component {
     }
   return (
     <div className="App">
-      <Subject
+      {/*<Subject
         title={this.state.Subject.title}
         sub={this.state.Subject.sub}>
-      </Subject>
+      </Subject>*/}
+      <header>
+          <h1><a href="/" onClick={function(e){
+            console.log(e);
+            e.preventDefault(); //event 발생때 그 동작을 막는 방법
+            // this.state.mode = 'welcome';
+            this.setState({
+              mode:'welcome'
+            })
+          }.bind(this)}>{this.state.Subject.title}</a></h1>
+          {this.state.Subject.sub}
+      </header>
       <TOC data={this.state.contents}></TOC>
       <Content title={_title} desc={_desc}></Content>
     </div>
