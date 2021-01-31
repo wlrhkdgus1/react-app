@@ -1,2 +1,2 @@
 https://trustyoo86.github.io/react/2017/11/18/props-state-react.html
-스테이트 프롭스 자유자제 사용가능하게 연습할것.
+스테이트 프롭스 자유자제 사용가능하게 연습할것. 
