@@ -1,2 +1,3 @@
 https://trustyoo86.github.io/react/2017/11/18/props-state-react.html
 스테이트 프롭스 자유자제 사용가능하게 연습할것. 
+리액트 사용법 익힌후 남들에게 설명할수 있게할것.
