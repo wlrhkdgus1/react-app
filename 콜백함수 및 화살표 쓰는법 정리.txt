@@ -1,0 +1,46 @@
+가짜 배열을 진짜배열로 만들라면
+fuction a(...arg){
+}
+...을 사용할수있음.
+
+
+1.
+arrow fuction
+setTimeout(function(){
+console.log("settimeout)
+), 1000);
+
+==1번과 2번은 같음
+
+2.
+setTimeout( () => {
+console.log("settimeout arrow");
+}, 1000);
+
+=========================
+3.
+let newArry = [1,2,3,4,5].map(function(value, index, object){
+return value * 2;
+});
+
+3번과 4번은 같음. 결과값: [2,4,6,8,10]
+
+
+4.
+let newArr = [1,2,3,4,5].map( (v) => {
+return v * 2;
+});
+console.log("arrow newArr",newArr);
+
+or
+
+let newArr = [1,2,3,4,5].map( (v) => v * 2 );
+console.log("arrow newArr" , newArr);
+ 
+or
+
+
+let newArr = [1,2,3,4,5].map( (v) => (v * 2));
+console.log("arrow newArr" , newArr);
+
+결과값은 다 같음.
