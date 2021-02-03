@@ -14,7 +14,7 @@ reactjs.org = 리액트 공식 홈페이지 및 사용방법
 
 이고잉 npm 강의 : https://opentutorials.org/module/4044
 
-npm install -g = 컴퓨터 어디에서든지 사용가능 global의 약자
+npm install -g = 컴퓨터 어디에서든지 사용가능 global의 약자 and -save
 
 npm create-react-app 다운로드 프로그램
 npx 1회용으로 사용하는 프로그램.
