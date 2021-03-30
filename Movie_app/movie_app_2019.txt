@@ -1,1 +1,12 @@
-react
+npm i prop-types 사용하기.
+
+setState 사용법 익히기
+
+add = () => {
+    this.setState(current => ({ count: current.count + 1}));
+  }
+  minus = () => {
+    this.setState(current => ({ count: current.count - 1}));
+  }
+
+react 에서 current 사용법 익히기. 최신기술 add 클릭시  +1 minus 클릭시 -1
